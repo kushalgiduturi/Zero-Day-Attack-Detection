@@ -1,0 +1,22 @@
+# Install PyTorch with CUDA 12.4 support (works with CUDA 13.0 drivers on RTX 4060)
+# Run this first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+torch>=2.2.0
+torchvision
+
+# Data & ML
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# API
+fastapi
+uvicorn[standard]
+requests
